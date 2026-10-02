@@ -153,6 +153,114 @@
           "height": 2000
         }
       ]
+    },
+    {
+      "id": "wuhan-museum",
+      "name": "武汉博物馆",
+      "area": "校外 · 武汉市江汉区",
+      "latitude": 30.61381,
+      "longitude": 114.25098,
+      "description": "武汉博物馆参观摄影 · 2026 年 5 月 25 日",
+      "coordinateSource": "OpenStreetMap 馆址（WGS84）",
+      "photos": [
+        {
+          "id": "photo-5f516721d939a18f",
+          "src": "assets/photos/wuhan-museum/2026-05-25/photo-5f516721d939a18f.jpg",
+          "thumbnail": "assets/photos/wuhan-museum/2026-05-25/photo-5f516721d939a18f-thumb.jpg",
+          "alt": "武汉博物馆参观摄影，照片 4F7A0098",
+          "date": "2026-05-25",
+          "time": "00:45:13",
+          "camera": "Canon EOS R6m2",
+          "settings": "63.0mm · f/4 · 1/80s · ISO 3200",
+          "width": 1333,
+          "height": 2000
+        },
+        {
+          "id": "photo-6d1457195bd3265b",
+          "src": "assets/photos/wuhan-museum/2026-05-25/photo-6d1457195bd3265b.jpg",
+          "thumbnail": "assets/photos/wuhan-museum/2026-05-25/photo-6d1457195bd3265b-thumb.jpg",
+          "alt": "武汉博物馆参观摄影，照片 4F7A0100",
+          "date": "2026-05-25",
+          "time": "00:45:49",
+          "camera": "Canon EOS R6m2",
+          "settings": "50.0mm · f/4 · 1/80s · ISO 8000",
+          "width": 1333,
+          "height": 2000
+        },
+        {
+          "id": "photo-7ee9c0df2eceb7fe",
+          "src": "assets/photos/wuhan-museum/2026-05-25/photo-7ee9c0df2eceb7fe.jpg",
+          "thumbnail": "assets/photos/wuhan-museum/2026-05-25/photo-7ee9c0df2eceb7fe-thumb.jpg",
+          "alt": "武汉博物馆参观摄影，照片 4F7A0102",
+          "date": "2026-05-25",
+          "time": "00:46:55",
+          "camera": "Canon EOS R6m2",
+          "settings": "105.0mm · f/4 · 1/160s · ISO 8000",
+          "width": 1333,
+          "height": 2000
+        },
+        {
+          "id": "photo-7dee138718c3677f",
+          "src": "assets/photos/wuhan-museum/2026-05-25/photo-7dee138718c3677f.jpg",
+          "thumbnail": "assets/photos/wuhan-museum/2026-05-25/photo-7dee138718c3677f-thumb.jpg",
+          "alt": "武汉博物馆参观摄影，照片 4F7A0135",
+          "date": "2026-05-25",
+          "time": "00:58:39",
+          "camera": "Canon EOS R6m2",
+          "settings": "105.0mm · f/4 · 1/160s · ISO 2000",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "id": "photo-37cacc9b8c292024",
+          "src": "assets/photos/wuhan-museum/2026-05-25/photo-37cacc9b8c292024.jpg",
+          "thumbnail": "assets/photos/wuhan-museum/2026-05-25/photo-37cacc9b8c292024-thumb.jpg",
+          "alt": "武汉博物馆参观摄影，照片 4F7A0155",
+          "date": "2026-05-25",
+          "time": "01:09:13",
+          "camera": "Canon EOS R6m2",
+          "settings": "80.0mm · f/4 · 1/100s · ISO 800",
+          "width": 1333,
+          "height": 2000
+        },
+        {
+          "id": "photo-96cad40bb6acea8a",
+          "src": "assets/photos/wuhan-museum/2026-05-25/photo-96cad40bb6acea8a.jpg",
+          "thumbnail": "assets/photos/wuhan-museum/2026-05-25/photo-96cad40bb6acea8a-thumb.jpg",
+          "alt": "武汉博物馆参观摄影，照片 4F7A0156",
+          "date": "2026-05-25",
+          "time": "01:09:27",
+          "camera": "Canon EOS R6m2",
+          "settings": "105.0mm · f/4 · 1/125s · ISO 2000",
+          "width": 1333,
+          "height": 2000
+        },
+        {
+          "id": "photo-1bfa71edf09cbf3b",
+          "src": "assets/photos/wuhan-museum/2026-05-25/photo-1bfa71edf09cbf3b.jpg",
+          "thumbnail": "assets/photos/wuhan-museum/2026-05-25/photo-1bfa71edf09cbf3b-thumb.jpg",
+          "alt": "武汉博物馆参观摄影，照片 4F7A0161",
+          "date": "2026-05-25",
+          "time": "01:10:35",
+          "camera": "Canon EOS R6m2",
+          "settings": "105.0mm · f/4 · 1/125s · ISO 500",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "id": "photo-427e5a40f0e78498",
+          "src": "assets/photos/wuhan-museum/2026-05-25/photo-427e5a40f0e78498.jpg",
+          "thumbnail": "assets/photos/wuhan-museum/2026-05-25/photo-427e5a40f0e78498-thumb.jpg",
+          "alt": "武汉博物馆参观摄影，照片 4F7A0168",
+          "date": "2026-05-25",
+          "time": "01:12:18",
+          "camera": "Canon EOS R6m2",
+          "settings": "91.0mm · f/4 · 1/100s · ISO 1000",
+          "width": 1333,
+          "height": 2000
+        }
+      ],
+      "coordinateSourceUrl": "https://www.openstreetmap.org/way/369445342"
     }
   ]
 }

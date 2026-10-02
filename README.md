@@ -51,7 +51,7 @@ git push
 
 自定义域名保存在 `site/CNAME`，构建时复制到 `docs/CNAME`。绑定在 GitHub Pages 设置中管理。
 
-底图来自 OpenStreetMap，交互使用 Leaflet 1.9.4（BSD-2-Clause，见 vendor 中的 LICENSE）。地图瓦片按当前视野正常加载，遵循浏览器缓存，无离线预下载；依赖网络访问 tile.openstreetmap.org。地图不可用时，地点列表与本地照片仍可浏览。当前收录工学部操场夜景 1 张、武汉动物园照片 10 张。
+底图来自 OpenStreetMap，交互使用 Leaflet 1.9.4（BSD-2-Clause，见 vendor 中的 LICENSE）。地图瓦片按当前视野正常加载，遵循浏览器缓存，无离线预下载；依赖网络访问 tile.openstreetmap.org。地图不可用时，地点列表与本地照片仍可浏览。当前收录工学部操场夜景 1 张、武汉动物园照片 10 张、武汉博物馆照片 8 张。
 
 ## 照片文件夹
 
@@ -59,5 +59,6 @@ git push
 
 - `Figures/武汉大学/工学部操场/2025-06-15/`
 - `Figures/武汉动物园/2026-06-09/`
+- `Figures/武汉博物馆/2026-05-25/`
 
 网站展示图在 `site/assets/photos/<地点>/<拍摄日期>/`，构建时同步到 `docs/assets/photos/`。后续导入脚本也按此结构生成展示图。原片保留在本地，网页照片随仓库推送。
