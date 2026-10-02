@@ -36,7 +36,7 @@ npm run build
 
 新地点需要照片带 GPS，或者手动给 `--lat` 和 `--lng`（WGS84，不要直接使用高德 GCJ-02 坐标）。已有地点使用同一个 `--place`，照片会追加到相册。拍摄时间按 EXIF 的本地时间；缺失时留空，不用文件时间猜测。
 
-地点名、简介、照片顺序可以直接编辑 `data/places.json`。首张照片作为地点列表封面。首次导入的 `playground-night` 暂名“操场夜景”，位置取自 IMG_0966.HEIC；确认名称后在 JSON 中修改即可。
+地点名、简介、照片顺序可以直接编辑 `data/places.json`。首张照片作为地点列表封面。首次导入的 `playground-night` 位于底图标注的湖滨操场，位置取自 IMG_0966.HEIC；如需调整名称，可直接在 JSON 中修改。
 
 ## 发布
 

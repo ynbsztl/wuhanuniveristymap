@@ -74,8 +74,9 @@ function renderList() {
       const marker = L.marker([place.latitude, place.longitude], {
         title: `查看${place.name}的照片`, alt: `查看${place.name}的照片`,
         icon: L.divIcon({className: 'photo-pin', html:`<div class="pin-inner"><span>${String(index + 1).padStart(2,'0')}</span></div>`,iconSize:[42,42],iconAnchor:[21,42]}),
-        riseOnHover:true
+        riseOnHover:true, bubblingMouseEvents:false
       }).addTo(map);
+      marker.getElement()?.setAttribute('aria-label', `查看${place.name}的照片`);
       marker.bindTooltip(text('span', place.name), {permanent:true,direction:'bottom',offset:[0,8],className:'place-label'});
       marker.on('click', () => showPlace(place)); markers.set(place.id, marker);
     }
