@@ -2,8 +2,8 @@
   "places": [
     {
       "id": "playground-night",
-      "name": "湖滨操场",
-      "area": "珞珈山校园",
+      "name": "工学部操场",
+      "area": "工学部",
       "latitude": 30.5456666667,
       "longitude": 114.361855,
       "description": "跑道、灯光与夏夜。",
@@ -11,15 +11,146 @@
       "photos": [
         {
           "id": "img-0966",
-          "src": "assets/img-0966.jpg",
-          "thumbnail": "assets/img-0966-thumb.jpg",
-          "alt": "夜幕下的武汉大学操场，跑道上有人散步和运动",
+          "src": "assets/photos/engineering-playground/2025-06-15/img-0966.jpg",
+          "thumbnail": "assets/photos/engineering-playground/2025-06-15/img-0966-thumb.jpg",
+          "alt": "夜幕下的武汉大学工学部操场，跑道上有人散步和运动",
           "date": "2025-06-15",
           "time": "22:05:28",
           "camera": "iPhone 16 Pro",
           "settings": "6.8mm · f/1.78 · 1/9s · ISO 2000",
           "width": 2000,
           "height": 1500
+        }
+      ]
+    },
+    {
+      "id": "wuhan-zoo",
+      "name": "武汉动物园",
+      "area": "校外 · 武汉市汉阳区",
+      "latitude": 30.54478,
+      "longitude": 114.23635,
+      "description": "武汉动物园动物拍摄 · 2026 年 6 月 9 日",
+      "coordinateSource": "OpenStreetMap 园区位置",
+      "photos": [
+        {
+          "id": "4F7A0262",
+          "alt": "武汉动物园动物拍摄，照片 4F7A0262",
+          "date": "2026-06-09",
+          "time": "13:58:06",
+          "camera": "Canon EOS R6m2 · RF100-400mm F5.6-8 IS USM",
+          "settings": "300mm · f/8 · 1/320s · ISO 320",
+          "src": "assets/photos/wuhan-zoo/2026-06-09/4F7A0262-large.jpg",
+          "thumbnail": "assets/photos/wuhan-zoo/2026-06-09/4F7A0262-small.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "id": "4F7A0271",
+          "alt": "武汉动物园动物拍摄，照片 4F7A0271",
+          "date": "2026-06-09",
+          "time": "14:06:59",
+          "camera": "Canon EOS R6m2 · RF100-400mm F5.6-8 IS USM",
+          "settings": "300mm · f/8 · 1/400s · ISO 400",
+          "src": "assets/photos/wuhan-zoo/2026-06-09/4F7A0271-large.jpg",
+          "thumbnail": "assets/photos/wuhan-zoo/2026-06-09/4F7A0271-small.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "id": "4F7A0275",
+          "alt": "武汉动物园动物拍摄，照片 4F7A0275",
+          "date": "2026-06-09",
+          "time": "14:10:58",
+          "camera": "Canon EOS R6m2 · RF100-400mm F5.6-8 IS USM",
+          "settings": "335mm · f/8 · 1/500s · ISO 640",
+          "src": "assets/photos/wuhan-zoo/2026-06-09/4F7A0275-large.jpg",
+          "thumbnail": "assets/photos/wuhan-zoo/2026-06-09/4F7A0275-small.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "id": "4F7A0301",
+          "alt": "武汉动物园动物拍摄，照片 4F7A0301",
+          "date": "2026-06-09",
+          "time": "14:32:46",
+          "camera": "Canon EOS R6m2 · RF100-400mm F5.6-8 IS USM",
+          "settings": "183mm · f/7.1 · 1/250s · ISO 250",
+          "src": "assets/photos/wuhan-zoo/2026-06-09/4F7A0301-large.jpg",
+          "thumbnail": "assets/photos/wuhan-zoo/2026-06-09/4F7A0301-small.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "id": "4F7A0304",
+          "alt": "武汉动物园动物拍摄，照片 4F7A0304",
+          "date": "2026-06-09",
+          "time": "14:38:27",
+          "camera": "Canon EOS R6m2 · RF100-400mm F5.6-8 IS USM",
+          "settings": "200mm · f/7.1 · 1/250s · ISO 200",
+          "src": "assets/photos/wuhan-zoo/2026-06-09/4F7A0304-large.jpg",
+          "thumbnail": "assets/photos/wuhan-zoo/2026-06-09/4F7A0304-small.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "id": "4F7A0353",
+          "alt": "武汉动物园动物拍摄，照片 4F7A0353",
+          "date": "2026-06-09",
+          "time": "15:28:19",
+          "camera": "Canon EOS R6m2 · RF100-400mm F5.6-8 IS USM",
+          "settings": "270mm · f/8 · 1/320s · ISO 1250",
+          "src": "assets/photos/wuhan-zoo/2026-06-09/4F7A0353-large.jpg",
+          "thumbnail": "assets/photos/wuhan-zoo/2026-06-09/4F7A0353-small.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "id": "4F7A0359",
+          "alt": "武汉动物园动物拍摄，照片 4F7A0359",
+          "date": "2026-06-09",
+          "time": "15:31:40",
+          "camera": "Canon EOS R6m2 · RF100-400mm F5.6-8 IS USM",
+          "settings": "335mm · f/8 · 1/500s · ISO 800",
+          "src": "assets/photos/wuhan-zoo/2026-06-09/4F7A0359-large.jpg",
+          "thumbnail": "assets/photos/wuhan-zoo/2026-06-09/4F7A0359-small.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "id": "4F7A0366",
+          "alt": "武汉动物园动物拍摄，照片 4F7A0366",
+          "date": "2026-06-09",
+          "time": "15:38:03",
+          "camera": "Canon EOS R6m2 · RF100-400mm F5.6-8 IS USM",
+          "settings": "259mm · f/8 · 1/320s · ISO 200",
+          "src": "assets/photos/wuhan-zoo/2026-06-09/4F7A0366-large.jpg",
+          "thumbnail": "assets/photos/wuhan-zoo/2026-06-09/4F7A0366-small.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "id": "4F7A0368",
+          "alt": "武汉动物园动物拍摄，照片 4F7A0368",
+          "date": "2026-06-09",
+          "time": "15:39:59",
+          "camera": "Canon EOS R6m2 · RF100-400mm F5.6-8 IS USM",
+          "settings": "135mm · f/6.3 · 1/160s · ISO 125",
+          "src": "assets/photos/wuhan-zoo/2026-06-09/4F7A0368-large.jpg",
+          "thumbnail": "assets/photos/wuhan-zoo/2026-06-09/4F7A0368-small.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "id": "4F7A0377",
+          "alt": "武汉动物园动物拍摄，照片 4F7A0377",
+          "date": "2026-06-09",
+          "time": "15:44:43",
+          "camera": "Canon EOS R6m2 · RF100-400mm F5.6-8 IS USM",
+          "settings": "100mm · f/5.6 · 1/200s · ISO 100",
+          "src": "assets/photos/wuhan-zoo/2026-06-09/4F7A0377-large.jpg",
+          "thumbnail": "assets/photos/wuhan-zoo/2026-06-09/4F7A0377-small.jpg",
+          "width": 1333,
+          "height": 2000
         }
       ]
     }

@@ -36,7 +36,7 @@ npm run build
 
 新地点需要照片带 GPS，或者手动给 `--lat` 和 `--lng`（WGS84，不要直接使用高德 GCJ-02 坐标）。已有地点使用同一个 `--place`，照片会追加到相册。拍摄时间按 EXIF 的本地时间；缺失时留空，不用文件时间猜测。
 
-地点名、简介、照片顺序可以直接编辑 `data/places.json`。首张照片作为地点列表封面。首次导入的 `playground-night` 位于底图标注的湖滨操场，位置取自 IMG_0966.HEIC；如需调整名称，可直接在 JSON 中修改。
+地点名、简介、照片顺序可以直接编辑 `data/places.json`。首张照片作为地点列表封面。首次导入的 `playground-night` 为工学部操场（用户确认），位置取自 IMG_0966.HEIC。武汉动物园作为校外地点独立收录，标记使用园区坐标。
 
 ## 发布
 
@@ -51,4 +51,13 @@ git push
 
 自定义域名保存在 `site/CNAME`，构建时复制到 `docs/CNAME`。绑定在 GitHub Pages 设置中管理。
 
-底图来自 OpenStreetMap，交互使用 Leaflet 1.9.4（BSD-2-Clause，见 vendor 中的 LICENSE）。地图瓦片按当前视野正常加载，遵循浏览器缓存，无离线预下载；依赖网络访问 tile.openstreetmap.org。地图不可用时，地点列表与本地照片仍可浏览。当前仅收录用户提供的一张照片，不使用虚构校园照片。
+底图来自 OpenStreetMap，交互使用 Leaflet 1.9.4（BSD-2-Clause，见 vendor 中的 LICENSE）。地图瓦片按当前视野正常加载，遵循浏览器缓存，无离线预下载；依赖网络访问 tile.openstreetmap.org。地图不可用时，地点列表与本地照片仍可浏览。当前收录工学部操场夜景 1 张、武汉动物园照片 10 张。
+
+## 照片文件夹
+
+原片按地点、日期保存：
+
+- `Figures/武汉大学/工学部操场/2025-06-15/`
+- `Figures/武汉动物园/2026-06-09/`
+
+网站展示图在 `site/assets/photos/<地点>/<拍摄日期>/`，构建时同步到 `docs/assets/photos/`。后续导入脚本也按此结构生成展示图。原片保留在本地，网页照片随仓库推送。

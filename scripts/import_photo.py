@@ -68,7 +68,8 @@ def main():
             if details.get(33434): settings.append(f'{Fraction(float(details[33434])).limit_denominator(100000)}s')
             if details.get(34855): settings.append(f'ISO {details[34855]}')
             photo = ImageOps.exif_transpose(original).convert('RGB')
-            assets = ROOT / 'site/assets'
+            relative_assets = Path('assets/photos') / args.place / (taken.strftime('%Y-%m-%d') if taken else 'undated')
+            assets = ROOT / 'site' / relative_assets
             assets.mkdir(parents=True, exist_ok=True)
             dimensions = None
             for suffix, limit in [('', 2000), ('-thumb', 720)]:
@@ -77,7 +78,7 @@ def main():
                 options = {'quality': 88, 'optimize': True, 'progressive': True}
                 if original.info.get('icc_profile'): options['icc_profile'] = original.info['icc_profile']
                 resized.save(assets / f'{photo_id}{suffix}.jpg', **options)
-            place['photos'].append({'id': photo_id, 'src': f'assets/{photo_id}.jpg', 'thumbnail': f'assets/{photo_id}-thumb.jpg',
+            place['photos'].append({'id': photo_id, 'src': f'{relative_assets}/{photo_id}.jpg', 'thumbnail': f'{relative_assets}/{photo_id}-thumb.jpg',
                                     'alt': args.alt, 'date': taken.strftime('%Y-%m-%d') if taken else '',
                                     'time': taken.strftime('%H:%M:%S') if taken else '', 'camera': exif.get(272, ''),
                                     'settings': ' · '.join(settings), 'width': dimensions[0], 'height': dimensions[1]})

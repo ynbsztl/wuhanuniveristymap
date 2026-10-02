@@ -2,6 +2,7 @@
 const $ = (id) => document.getElementById(id);
 const state = {places: [], selected: null, photoIndex: 0, opener: null};
 const regions = {
+  zoo: [[30.537,114.225],[30.552,114.248]],
   all: [[30.524, 114.346], [30.573, 114.379]],
   arts: [[30.533, 114.35], [30.547, 114.372]],
   engineering: [[30.543, 114.353], [30.558, 114.372]],
