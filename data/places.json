@@ -1,0 +1,27 @@
+{
+  "places": [
+    {
+      "id": "playground-night",
+      "name": "操场夜景",
+      "area": "珞珈山校园",
+      "latitude": 30.5456666667,
+      "longitude": 114.361855,
+      "description": "跑道、灯光与夏夜。",
+      "coordinateSource": "照片 GPS（WGS84）",
+      "photos": [
+        {
+          "id": "img-0966",
+          "src": "assets/img-0966.jpg",
+          "thumbnail": "assets/img-0966-thumb.jpg",
+          "alt": "夜幕下的武汉大学操场，跑道上有人散步和运动",
+          "date": "2025-06-15",
+          "time": "22:05:28",
+          "camera": "iPhone 16 Pro",
+          "settings": "6.8mm · f/1.78 · 1/9s · ISO 2000",
+          "width": 2000,
+          "height": 1500
+        }
+      ]
+    }
+  ]
+}
